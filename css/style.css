@@ -1,0 +1,336 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 400;
+}
+.contenedor{
+	max-width: 900px;
+	margin: auto;
+}
+.up{
+	text-transform: uppercase;
+	font-family: 'Montserrat',sans-serif;
+	font-weight: 600;
+}
+.nav_header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	font-size: 22px;
+	color: white;
+	margin: 20px 0;
+}
+.nav_menu{
+	display: flex;
+}
+header{
+	background-color: #2c3e50;
+}
+nav ul li a{
+		color: white;
+		font-size: 10px;
+		margin: 20px;
+}
+.segundo_menu{
+	border:1px solid white;
+	border-radius: 5px;
+	padding:10px;
+	font-size: 12px;
+	color:white;
+	margin-right: 20px;
+	display: none;
+}
+.menu_header{
+	color: white;
+}
+.icono_menu{
+	font-size: 14px;
+	margin-left: 4px;
+}
+@media screen and (max-width: 480px){
+
+	.nav_menu{
+		display: none;
+	}
+	.segundo_menu{
+		display: flex;
+		align-items: center;
+	}
+
+
+}
+@media screen and (max-width: 950px){
+
+	.logo{
+		margin-left: 20px;
+	}
+
+}
+
+
+/*---------------------------
+--------primera section------
+-----------------------------*/
+.primera_s{
+	color: white;
+	background-color: #18bc9c;
+}
+.principal{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 80px 0;
+}
+.foto{
+	width: 230px;
+}
+.subrayado{
+	display: flex;
+}
+.lineas{
+	border-top: 3px solid;
+	width: 81px;
+	margin: 15px 4px;
+}
+.color_line{
+	border-color: white;
+}
+.estrella{
+	font-size: 27px;
+	margin-bottom: 30px;
+}
+.primera_s h2{
+	font-size: 60px;
+	margin: 30px;
+}
+.subrayado span{
+	margin-bottom: 0px;
+}
+h1{
+	margin-top: 20px;
+	text-align: center;
+}
+@media screen and (max-width: 480px){
+
+	.principal h2{
+		font-size: 35px;
+		margin-bottom: 10px;
+	}
+}
+/*---------------------------
+--------segunda section------
+-----------------------------*/
+.segunda_s{
+	margin-bottom: 80px;
+}
+.titulo_segundas{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top:80px;
+	margin-bottom: 20px;
+}
+.titulo_segundas h3{
+	font-size: 33px;
+	margin-bottom: 5px;
+}
+
+.imagenes{
+	margin-top: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-bottom: 80px;
+}
+
+.imagenes img{
+	padding-bottom: 20px;
+	max-height: 206px;
+	max-width: 285px;
+}
+@media screen and (max-width: 900px){	
+
+	.imagenes{
+		max-width: 600px;
+		margin: auto;	
+	}
+
+}
+/*---------------------------
+--------tercera section------
+-----------------------------*/
+.tercera_s{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #18bc9c;
+	color: white;
+}
+.tercera_s h3{
+	font-size: 33px;
+	margin-top: 80px;
+}
+.parrafos{
+	display: flex;
+	max-width: 600px;
+	justify-content: space-between;
+	margin: 0 15px;
+
+}
+.parrafos p{
+	width: 48%;
+	font-size: 15px;
+	margin: 20px 0;
+	line-height: 20px;
+}
+.boton{
+	color: white;
+	border-radius: 4px;
+	border: 1px solid white;
+	padding: 10px;
+	margin-bottom: 80px;
+}
+@media screen and (max-width: 370px){	
+
+	.parrafos{
+		flex-direction: column;
+	}
+	.parrafos p {
+		width: 100%;
+		margin: 0;
+		margin-bottom: 15px;
+	}
+	.margin_bottom{
+		margin-bottom:10px;
+	}
+
+}
+/*---------------------------
+--------cuarta section------
+-----------------------------*/
+.cuarta_s{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.cuarta_s h3{
+	margin:80px 0 5px 0px;
+	font-size: 33px;
+}
+.formulario form{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: 20px;
+	
+}
+
+.tipografia_form{
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #999999;
+	padding: 15px 0px 15px 15px;
+	width: 600px;
+	border-style: none;
+	border-top: 1px solid #e1e1e1;
+}
+.message{
+	border-bottom: 1px solid #e1e1e1;
+	padding-bottom: 120px;
+}
+.send{
+	display: inline;
+	color:white;
+	font-weight: 700;
+	background-color: #18bc9c;
+	padding:10px 19px;
+	border-radius: 6px;
+	margin:0;
+}
+.pos_send{
+	margin: 30px 0 100px 15px;
+}
+@media screen and (max-width: 630px){	
+
+	.tipografia_form{
+		width: 420px;
+	}
+}
+@media screen and (max-width: 630px){	
+
+	.tipografia_form{
+		width: 320px;
+	}
+
+}
+
+/*---------------------------
+--------------footer----------
+-----------------------------*/
+footer{
+	background-color: #2c3e50; 
+}
+footer h4{
+	margin-top: 40px;
+	font-size: 15px;
+	font-weight: 900;
+
+}
+.contacto p{
+	font-size: 12px;
+	margin: 20px 0;
+	padding-bottom: 15px;
+	line-height: 17px;
+}
+.contacto{
+	display: flex;
+	color: white;
+}
+.contacto div{
+	flex:1;
+	text-align: center;
+}
+.copyright{
+	background-color: #233140;
+	color: white;
+	font-size: 10px;
+	padding: 20px;
+	text-align: center;
+}
+.link{
+	color: #18bc9c;
+}
+
+.social_media ul {
+	display: flex;
+	font-size: 16px;
+	margin-top: 25px;	
+    justify-content: center;
+}
+.social_media ul li{
+	border: 1px solid white;
+    margin: 0 5px;
+    border-radius: 50%;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.social_media ul li a{
+	color:white;
+}
+
+
+.copyright span:after{
+	content: "© ";
+}
+
+@media screen and (max-width: 675px){	
+
+ .contacto{
+ 	flex-direction: column;
+ }
+}
